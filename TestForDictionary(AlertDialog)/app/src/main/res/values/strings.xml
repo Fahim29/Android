@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestForDictionary</string>
+    <string name="show_dialog">Show Dialog</string>
+
+    <string-array name="textSize">
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+</resources>
