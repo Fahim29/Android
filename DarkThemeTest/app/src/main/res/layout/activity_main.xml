@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/mainBackground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        app:srcCompat="@drawable/header_image" />
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="App Dark Mode"
+        android:textColor="@color/mainText"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_image" />
+
+    <TextView
+        android:id="@+id/page_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="Lorem ipsum dolor sit \n amet, consetetur"
+        android:textColor="@color/textAlt"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/switch_btn_bg"
+        android:fontFamily="@font/raleway_semibold"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:text="Enable Dark Mode"
+        android:textAllCaps="false"
+        android:textColor="@color/mainBackground"/>
+
+</LinearLayout>
